@@ -27,7 +27,8 @@ int main(){
 display(v,n);
 cout<<endl;
 
-// sort(v,n);
+// sort(v,n); // method1 two pass way 
+//Method 2 one pass way 
 int pointer1=0;
 int pointer2=n-1;
 for (int i=0;i<n;i++){
